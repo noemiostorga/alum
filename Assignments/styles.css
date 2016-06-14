@@ -1,0 +1,41 @@
+article{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+summary{
+	color: grey;
+}
+
+nav {
+	width: 30%;
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0px;
+
+}
+
+nav ul li{
+	text-align: center;
+	list-style: none;
+
+}
+
+nav ul li:hover{
+	font-weight: bolder;
+}
+
+.paragraph{
+	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+      -webkit-column-rule-style: outset;
+    -webkit-column-rule-color: #000;
+	text-align: center;
+}
